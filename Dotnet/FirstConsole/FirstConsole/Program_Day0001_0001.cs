@@ -2,9 +2,9 @@
 
 namespace FirstConsole
 {
-    class Program
+    class Program_0001
     {
-        static void Main(string[] args)
+        static void Main_0001(string[] args)
         {
 
             //Master In C# 
