@@ -1,0 +1,13 @@
+D:\abhay\ShridharMVCCLass\ShridhardDotnet\Dotnet\FirstConsole\FirstConsole\bin\Debug\netcoreapp3.1\FirstConsole.exe
+D:\abhay\ShridharMVCCLass\ShridhardDotnet\Dotnet\FirstConsole\FirstConsole\bin\Debug\netcoreapp3.1\FirstConsole.deps.json
+D:\abhay\ShridharMVCCLass\ShridhardDotnet\Dotnet\FirstConsole\FirstConsole\bin\Debug\netcoreapp3.1\FirstConsole.runtimeconfig.json
+D:\abhay\ShridharMVCCLass\ShridhardDotnet\Dotnet\FirstConsole\FirstConsole\bin\Debug\netcoreapp3.1\FirstConsole.runtimeconfig.dev.json
+D:\abhay\ShridharMVCCLass\ShridhardDotnet\Dotnet\FirstConsole\FirstConsole\bin\Debug\netcoreapp3.1\FirstConsole.dll
+D:\abhay\ShridharMVCCLass\ShridhardDotnet\Dotnet\FirstConsole\FirstConsole\bin\Debug\netcoreapp3.1\FirstConsole.pdb
+D:\abhay\ShridharMVCCLass\ShridhardDotnet\Dotnet\FirstConsole\FirstConsole\obj\Debug\netcoreapp3.1\FirstConsole.csproj.AssemblyReference.cache
+D:\abhay\ShridharMVCCLass\ShridhardDotnet\Dotnet\FirstConsole\FirstConsole\obj\Debug\netcoreapp3.1\FirstConsole.AssemblyInfoInputs.cache
+D:\abhay\ShridharMVCCLass\ShridhardDotnet\Dotnet\FirstConsole\FirstConsole\obj\Debug\netcoreapp3.1\FirstConsole.AssemblyInfo.cs
+D:\abhay\ShridharMVCCLass\ShridhardDotnet\Dotnet\FirstConsole\FirstConsole\obj\Debug\netcoreapp3.1\FirstConsole.csproj.CoreCompileInputs.cache
+D:\abhay\ShridharMVCCLass\ShridhardDotnet\Dotnet\FirstConsole\FirstConsole\obj\Debug\netcoreapp3.1\FirstConsole.dll
+D:\abhay\ShridharMVCCLass\ShridhardDotnet\Dotnet\FirstConsole\FirstConsole\obj\Debug\netcoreapp3.1\FirstConsole.pdb
+D:\abhay\ShridharMVCCLass\ShridhardDotnet\Dotnet\FirstConsole\FirstConsole\obj\Debug\netcoreapp3.1\FirstConsole.genruntimeconfig.cache
