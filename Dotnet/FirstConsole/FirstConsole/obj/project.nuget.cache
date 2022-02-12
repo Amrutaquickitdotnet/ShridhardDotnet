@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "LXBA84WEaBn5lJIDvks35hnjPK3vZsamcbGn3/ffjXRathVbRx6e6nfXW+HOhxZLntLyGfy0rewPGIaV3EKdXg==",
+  "success": true,
+  "projectFilePath": "D:\\abhay\\ShridharMVCCLass\\ShridhardDotnet\\Dotnet\\FirstConsole\\FirstConsole\\FirstConsole.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\AjayV\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.18\\microsoft.netcore.app.host.win-x64.3.1.18.nupkg.sha512"
+  ],
+  "logs": []
+}
