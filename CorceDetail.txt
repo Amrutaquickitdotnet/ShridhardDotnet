@@ -1,0 +1,85 @@
+Login page 
+--> Authentication
+----->Token Based 
+------>Identity/Principe/Claim/Role Based 
+----->Session Based
+----->  
+--> Authorization
+--------> Go to Page/Resource <- 
+--------> Can change or see any information on page 
+-------> Record Level Authorization  x Will discuss only 
+-->Add/Update/Delete<- SQL 
+---> EF Direct 
+---> EF with Query/Procedure  call
+----->Read
+-------> Where 
+-------> Order BY 
+------> Single Record
+------> Join
+
+-----> Validate 
+----------> Dot net Apis 
+----------> Custom Validation
+--------> Handel Ajax 
+--------> Includel Javascript +CSS
+----------> Master Page --> Layout
+----------> Web APi
+-------------> Expose Information ABout Web API 
+---------------> Swagger
+---------------> Token based Authentication
+---------------> Handshake btwn client and Service <- 
+------------------> Content negotiation
+-----------------------> Multiple Content 
+------------------------->XML/JSON
+------------------> File 
+----------------------> Stream 
+----------------------> Byte[]
+----------> COntent/Stauts/
+------------------>Unathorized 
+------------------> Not found 
+-------------------> custom Status + message 
+--->MVC
+----------->HTML
+------------------>View 
+------------------>Partail View 
+--------------------------------------------------------------
+Request--> IIS--> USed WorkerProcess(w3wc).. >
+Calling MVC code-->
+
+
+IIS--> DOt net core exe-> + Extra layer (Code) + -> MVC
+-----> Befrore Bring MVC COde in memory <-
+
+
+Extra layer (Code)
+----> Pipe Line 
+------>Inject our code in MVC. 
+-----------> Decide What Next Layer-> MVC wants
+-------------->Use only library which you want 
+
+----->Unity Framework <- 
+-------->Dependency Injection
+------------>Inbuilt 
+
+-------------------------------------
+Linq <-
+OOPS<-- Understanding with respect of MVC/Web API 
+
+--->HOw to deploy  code ->x
+----> How to debug 
+
+-----------------------
+Dot net core 3.0 
+6+ some months back 
+
+
+
+
+
+
+
+
+
+ 
+
+
