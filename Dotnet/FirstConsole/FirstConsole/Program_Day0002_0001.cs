@@ -2,9 +2,14 @@
 
 namespace FirstConsole
 {
-    class Program_Day0001_0006
+
+      class Program_Day0002_0001
     {
-        static void Main_Day0001_0006(string[] args)
+        public delegate R MyFunc<in T1, out R>(T1 str);
+
+        public delegate R MyFunc<T1, T2, R>(T1 t1, T2 t2);
+
+        static void Main_Day0002_0001(string[] args)
         {
 
             //Master In C# 
@@ -26,8 +31,12 @@ namespace FirstConsole
             //Or Preparing for interview 
 
             string str = "";
-          //number 
-          //
+            //number 
+            //
+
+
+            int[] employeeIntNames = { 1,2,3,4,5,6,7 };
+
 
             string[] employeeNames = { "Abhay", "Shridhar", "Akash", "Ajay", "Vijay", "Karan" };
 
@@ -45,7 +54,7 @@ namespace FirstConsole
             Console.WriteLine("All Employees End With r");
             Print(result);
 
-            result = GetCondition(employeeNames, x => x.EndsWith("y"));
+            result = GetCondition(employeeNames, Program_Day0002_0001.Dummy);
             Console.WriteLine("All Employees End With y");
             Print(result);
 
@@ -57,6 +66,9 @@ namespace FirstConsole
             result = GetCondition(employeeNames, x => x.Contains("b") && x.StartsWith("A"));
             Console.WriteLine("All Employees Conatains b and Start With A");
             Print(result);
+
+            int[] resultInt = GetCondition(employeeIntNames, x=>x > 2);
+
 
 
             //Want to start with "A";
@@ -76,8 +88,30 @@ namespace FirstConsole
             }
         }
 
+        public static bool Dummy(string str)
+        {
+            return false;
+        }
 
-        public static string[] GetCondition(string[] employeeNames, Func<string,bool> predicate)
+
+        public static int[] GetCondition(int[] employeeNames, MyFunc<int, bool> predicate)
+        {
+            int[] result = new int[employeeNames.Length];
+            int j = 0;
+            for (int i = 0; i < employeeNames.Length; i++)
+            {
+                if (predicate(employeeNames[i]))
+                {
+                    result[j++] = employeeNames[i];
+                }
+            }
+
+
+            return result;
+
+        }
+
+        public static string[] GetCondition(string[] employeeNames, MyFunc<string,bool> predicate)
         {
             string[] result = new string[employeeNames.Length];
             int j = 0;
