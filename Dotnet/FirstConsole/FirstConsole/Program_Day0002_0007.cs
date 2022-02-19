@@ -18,10 +18,18 @@ namespace FirstConsole
             dict.Add("Name", "Abhay");
             dict.Add("Address", "2333");
 
+            dict.Add("Id", "1");
+
             foreach (var item in dict)
             {
                 Console.WriteLine(item.Key + " : " + item.Value);
             }
+
+            Employee emp = new Employee();
+
+          GenricMethods.SetModel(dict, emp);
+
+            Console.WriteLine(emp.Name);
         }
     }
 

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 
 namespace FirstConsole
@@ -8,13 +9,21 @@ namespace FirstConsole
     {
 
 
-        public static T SetModel<T>(Dictionary<string,string> T obj)
+        public static T SetModel<T>(Dictionary<string,string> dict, T obj)
         {
 
+            Type t = obj.GetType();
+
+           var properties= t.GetProperties();
+
+            foreach (var item in properties)
+            {
+                var dictItem = dict.FirstOrDefault(x => x.Key.Equals(item.Name, StringComparison.OrdinalIgnoreCase));
+               item.SetValue(obj, dictItem.Value);
+            }
 
 
-
-            return;
+            return obj;
 
 
         }
