@@ -7,7 +7,21 @@ namespace FirstConsole
   public static class GenricMethods
     {
 
-        public static List<T> ToGetListc<T>(IEnumerable<T> employeeNames)
+
+        public static T SetModel<T>(Dictionary<string,string> T obj)
+        {
+
+
+
+
+            return;
+
+
+        }
+         
+
+
+            public static List<T> ToGetListc<T>(IEnumerable<T> employeeNames)
         {
 
             List<T> result = new List<T>();

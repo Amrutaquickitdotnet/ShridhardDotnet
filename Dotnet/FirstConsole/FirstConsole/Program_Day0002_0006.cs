@@ -10,7 +10,7 @@ namespace FirstConsole
     //public delegate R MyFunc<T1,T2, R>(T1 t1, T2 t2);
     class Program_Day0002_0006
     {
-        static void Main(string[] args)
+        static void Main_006(string[] args)
         {
 
             //Master In C# 
